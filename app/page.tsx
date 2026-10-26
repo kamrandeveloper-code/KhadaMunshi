@@ -192,6 +192,15 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="section">
+        <div className="wrap narrow center">
+          <h2>Pilot dukaan banein: pehla mahina free</h2>
+          <p className="sub">Do dukaanon ko hum ek mahina free chalate hain, aur aap ke asli before-after numbers (aap ki ijazat se) case study banate hain.</p>
+          <Link className="btn" href="/pilot">Pilot program dekhein</Link>{" "}
+          <Link className="btn btn-ghost" href="/resources">Free sheets</Link>
+        </div>
+      </section>
+
       <section id="faq" className="section tint">
         <div className="wrap narrow">
           <h2 className="center">Aksar poochhe jane wale sawal</h2>

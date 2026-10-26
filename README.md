@@ -40,10 +40,14 @@ The name does the explaining: *khata* is the ledger, *munshi* is the trusted cle
 ## What is on the website
 
 - **Landing page** in Roman Urdu: hero, the register problem, six core features, app screens with demo data, the laptop view, a Rabi-season section, FAQ and a WhatsApp call to action.
-- **A blog** with six practical guides for dealers, each with a free downloadable sheet where it helps:
+- **Supporting pages:** `/demo` (what the live demo covers and how to book it), `/pilot` (first month free for two pilot shops, with written permission before any numbers are published), `/resources` (all free sheets) and `/about`.
+- **A blog** with nine practical guides for dealers, each with a free downloadable sheet where it helps. Posts 5 and 6 (Punjab licence records, India PoS matching) carry a visible "check the official text" note, because those rules change.
 
 | Post | Free sheet |
 | --- | --- |
+| Why a dated stock and sales record protects you in a DAP or urea shortage | Season stock planner |
+| What records a Punjab pesticide dealer should keep for a licence inspection | none |
+| Fertilizer retailers in India: matching PoS sales with your stock | none |
 | A Rabi-season udhaar plan for a fertilizer dealer | Kisan udhaar tracker |
 | Expiry and batch tracking for a pesticide shop | Monthly expiry list |
 | Khata register, Excel or app: an honest comparison | none |
@@ -135,8 +139,9 @@ Add one object to the `posts` array in `lib/posts.ts` (slug, title, description,
 - Search "KhadMunshi" on Google and the Play Store, and run a trademark search in Pakistan (IPO) and India. Khata apps are a crowded space.
 - Set `NEXT_PUBLIC_SITE_URL` to your real domain.
 - Check that the app screens in the video match your real app. Show your real screen and change the line if they differ.
-- Posts about licence inspection rules (Punjab) and PoS stock matching (India) are not included yet. Their rules change, so write them only after checking the current official text.
-- A case study needs a real pilot shop. Offer two shops a free month, record real before and after numbers with their permission, and publish those.
+- Read the Punjab licence post and the India PoS post against the current official text before you promote them. They are written as general record-keeping advice, not legal guidance.
+- The case study (plan item 10) is not written, because it needs a real pilot shop. The `/pilot` page is how you recruit one. Record real before and after numbers with written permission, then publish them.
+- `docs/launch-kit.md` holds the video script, captions, group posts and posting checklist, with your WhatsApp number filled in.
 
 ## Roadmap
 
