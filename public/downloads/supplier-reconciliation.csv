@@ -1,0 +1,6 @@
+Tareekh,Bill / Payment no.,Mera record (Rs),Statement (Rs),Fark (Rs),Wajah,Hal hua? (Haan/Nahi)
+2026-10-03,INV-4417 (misaal),184000,184000,=C2-D2,,Haan
+2026-10-12,INV-4452 (misaal),96500,98000,=C3-D3,Rate ka fark,Nahi
+2026-10-19,PMT-882 (misaal),150000,0,=C4-D4,Adaigi statement mein nahi,Nahi
+,,,,,,
+Kul,,=SUM(C2:C100),=SUM(D2:D100),=SUM(E2:E100),,

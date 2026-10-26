@@ -1,0 +1,4 @@
+Maal ka naam,Batch no.,Quantity,Expiry (YYYY-MM-DD),Supplier,Kitne din baqi,Halat
+Imidacloprid 250 ml (misaal),B-2407,24,2027-06-30,Distributor A,=D2-TODAY(),"=IF(F2<0,""EXPIRE HO GAYA"",IF(F2<=90,""LAAL: 90 din ke andar"",IF(F2<=180,""PEELA: 6 mahine"",""HARA: theek"")))"
+Fungicide 500 g (misaal),F-1189,12,2027-03-31,Distributor B,=D3-TODAY(),"=IF(F3<0,""EXPIRE HO GAYA"",IF(F3<=90,""LAAL: 90 din ke andar"",IF(F3<=180,""PEELA: 6 mahine"",""HARA: theek"")))"
+,,,,,,

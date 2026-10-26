@@ -1,0 +1,5 @@
+Kisan ka naam,Gaon,Mobile,Zameen (acre),Credit limit (Rs),Diya hua maal (Rs),Wapas mila (Rs),Baaki (Rs),Due date,Halat
+Chaudhry Bashir (misaal),Chak 45,0300-0000001,5,120000,98000,20000,=F2-G2,2027-04-30,"=IF(H2>E2,""LAAL: limit paar"",IF(H2>E2*0.8,""PEELA: 80% se upar"",""HARA: theek""))"
+Malik Rafiq (misaal),Chak 12,0300-0000002,8,200000,62000,0,=F3-G3,2027-05-10,"=IF(H3>E3,""LAAL: limit paar"",IF(H3>E3*0.8,""PEELA: 80% se upar"",""HARA: theek""))"
+,,,,,,,,,
+,,,,,,,,,

@@ -1,0 +1,4 @@
+Maal,Pichle saal ki bikri,Is saal barhao (%),Andaza,Safety stock (%),Zaroori maal,Mojooda stock,Order karna hai
+DAP (bori) (misaal),420,10,=B2*(1+C2/100),10,=D2*(1+E2/100),60,=MAX(0,ROUND(F2-G2,0))
+Urea (bori) (misaal),700,10,=B3*(1+C3/100),10,=D3*(1+E3/100),120,=MAX(0,ROUND(F3-G3,0))
+Fungicide (pack) (misaal),110,0,=B4*(1+C4/100),0,=D4*(1+E4/100),15,=MAX(0,ROUND(F4-G4,0))
